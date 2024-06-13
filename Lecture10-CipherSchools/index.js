@@ -1,6 +1,6 @@
 let person = {
-    firstname: "Japnoor",
-    lastname: "Karan",
+    firstname: "SANCHIT",
+    lastname: "BAJAJ",
     getFullName: function () {
       return `The name of the person is ${this.firstname} ${this.lastname}`;
     },
