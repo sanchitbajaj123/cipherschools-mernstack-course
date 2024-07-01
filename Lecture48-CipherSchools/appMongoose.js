@@ -1,7 +1,7 @@
 const { connect } = require("mongoose");
 
-const MongoUrl = "mongodb+srv://rgs786999:8wm6lhVoV59yirSJ@cluster0.9olfp7w.mongodb.net";
-const DB_NAME = `cs-mern`;
+const MongoUrl = "mongodb://localhost:27017";
+const DB_NAME = `mern`;
 
 async function connectDB() {
     try {
